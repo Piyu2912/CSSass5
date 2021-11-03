@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.head {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+  background-image: linear-gradient(to right, red, green, yellow);
+}
+.list {
+  border: 5px solid red;
+  border-radius: 10px;
+  text-align: center;
+  list-style-type: disc;
+  background-color: rgb(36, 121, 160);
+  margin-top: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 3%;
+}
+.container1 {
+  background-color: lightgreen;
+  border: 4px solid green;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 5px;
+  padding-left: 9%;
+  padding-right: 25px;
+}
+.card1 {
+  padding: 12px;
+  width: 65%;
+  font-size: 19px;
+  font-weight: bold;
+  text-align: center;
+  border: 4px solid green;
+  border-radius: 10px;
+  background-color: lightskyblue;
+}
+.none {
+  visibility: hidden;
+}
+.container2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: underline red;
+  background-image: radial-gradient(yellow 45%, red);
+  padding-bottom: 25px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.container3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* column-gap: 20px; */
+  border: 2px solid green;
+  border-radius: 4px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-image: radial-gradient(blue 55%, lightgreen);
+}
+.card2 {
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  color: red;
+  border: 2px solid red;
+  border-radius: 13px;
+  background-color: yellow;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 35px;
+  text-decoration: underline;
+  height: 110px;
+}
+.container4 {
+  font-size: 30px;
+  padding-bottom: 20px;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  color: white;
+  text-align: center;
+  background-color: rgb(219, 89, 89);
+}
+.container5 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 150px;
+  grid-template-rows: 1fr 150px;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+.card3 {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  background-color: lightgreen;
+}
+.card4 {
+  color: white;
+  font-size: 40px;
+  background-color: rgb(70, 139, 230);
+}
+.card5 {
+  color: white;
+  font-size: 30px;
+  background-color: rgb(41, 69, 194);
+}
+.card6 {
+  padding: 6px;
+  color: white;
+  background-color: rgb(33, 36, 46);
+  grid-row: span 2;
+}
+.order {
+  display: flexbox;
+}
+.card7 {
+  background-color: rgb(224, 162, 46);
+  grid-column: 1 / 4;
+  color: white;
+  font-size: 30px;
+}
+.container6 {
+  background-color: turquoise;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
